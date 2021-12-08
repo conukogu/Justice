@@ -50,6 +50,7 @@ width: 100%;
    background-color: #000000;
   }
 
+
   .gradient{
     background: linear-gradient(to bottom, rgb(255, 255, 255, 0), rgba(0, 0, 0, 1));
     z-index:-1;
@@ -99,8 +100,12 @@ width: 100%;
     opacity: 1;
   }
   
+  a{
+      color:whitesmoke;
+      align: center;
+  }
   .text {
-    color: black;
+    color: whitesmoke;
     font-size: 20px;
     position: absolute;
     top: 50%;
