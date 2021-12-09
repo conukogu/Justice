@@ -1,73 +1,71 @@
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display: flex;
-    flex-direction: column; 
-    min-height: 100vh;
-    background: gray;
-    max-width: 100vw;
-    max-height: auto;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)),
+  url(img/home4.jpg);
 }
-.gradient{
-    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
-   /* z-index: -1;*/
 
-}
+
+
 /*NavBar*/
 
 /*.header{
-  min-height: 100vh;
-  width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),;
-  background-position: center;
-  background-size: cover;
-  position: relative;
+min-height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),;
+background-position: center;
+background-size: cover;
+position: relative;
 }*/
 .name {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 nav{
-  display: flex;
-  padding: 2% 6%;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  z-index: 1;
-  color: whitesmoke;
-  
+display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items: center;
+position: relative;
+z-index: 1;
+color: whitesmoke;
+
 }
 nav img{
-  width: 150px;
+width: 150px;
 }
 .nav-links{
-  flex: 1;
-  text-align: right;
+flex: 1;
+text-align: right;
 }
 .nav-links ul li{
-  list-style: none;
-  display: inline-block;
-  padding: 8px 12px;
-  position: relative 
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative 
 }
 .nav-links ul li a{
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  
+color: white;
+text-decoration: none;
+font-size: 20px;
+
 }
 .nav-links ul li::after{
-  content: '';
-  width: 0%;
-  height: 2px;
-  background: #f44336;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
+content: '';
+width: 0%;
+height: 2px;
+background: #f44336;
+display: block;
+margin: auto;
+transition: 0.5s;
 }
 .nav-links ul li:hover::after{
 width: 100%;
@@ -77,102 +75,133 @@ width: 100%;
 /*Backgroun-Image*/
 
 #backimage{
-    min-height: 100%;
-    min-width: 1024px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-image:  linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), url("img/home4.jpg");
-  }
-  /*Topinfo*/
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+/*Topinfo*/
 
 .head{
-    padding: 50px;
-    text-align: center!important;
+  padding: 50px;
+  text-align: center!important;
 }
 #maintext{
-    position: relative;
-    color: whitesmoke;
+  position: relative;
+  color: whitesmoke;
+  text-align: center;
+  position: relative;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.315);
+  display: flex;
+  margin: 2px;
+  padding-top:2vh;
+  padding-bottom:2vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  justify-content: center;
 }
 .cn{
-    text-align: center;
-    position: relative;
-    color: whitesmoke;
+  text-align: center;
+  position: relative;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.315);
+  display: flex;
+  margin: 2px;
+  padding-top:2vh;
+  padding-bottom:2vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  justify-content: center;
 }
 
 .clear{
-    clear: both;
+  clear: both;
 }
 /* Resources*/
 
 .genresources {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  justify-content: space-around;
+  margin: 5em;
+ 
 }
 .resources{
-    margin:5px;
-    width: auto;
-    padding: 0 20px 20px;
-    position: relative;
-    justify-content: center;
-    
+  display: flex;
+  /*margin:5vw;*/
+  /*width: 480px;
+  height: 350px;*/
+  padding: 0 20px 20px;
+  position: relative;
+  justify-content: center;
+  margin:5px;
+  width: auto;
 }
-  .desc{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #A89E93;
-    color: whitesmoke;
-    
-  }
-  
+.desc{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A89E93;
+  color: whitesmoke;}
+
 .resources:hover .desc {
-    opacity: 1;
+  opacity: 1;
 }
-  
+
 .text {
-    color:whitesmoke;
-    font-size:20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    font-family:"Jazz LET";
-    text-align: justify;
-  }
-  .desc h3{
-    text-align: center;
-  }
-  p{
-   line-height: 1.2;
-   font-size: 18px;
-   padding: 20px;
-  }
-  .recovery{
-    position: relative;
-    padding:20px;
-    justify-content: center;
-    background-color: #A89E93;
-    color: whitesmoke;
+  color:whitesmoke;
+  font-size:20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family:"Jazz LET";
+  text-align: justify;
 }
-.solid {
-  padding-top: 1px;
-  padding-left: 0px;
-  margin-left: 0;
+.desc h3{
+  text-align: center;
 }
+
+p{
+ line-height: 1.2;
+ font-size: 1vw;
+ padding: 20px;
+}
+
+.recovery{
+  border-radius: 1.8em;
+  padding:20px;
+  margin-right: auto;
+  background-color: #A89E93;
+  color: whitesmoke;
+  max-width: 50vw;
+}
+
 
 /*Footer*/
 
@@ -215,8 +244,8 @@ paint-order: stroke;
 display: flex;
 align-items: center;
 color: whitesmoke;
-font-family:'Open sans' ;
+font-family:'Open sans';
 font-size: 1.5vw;
 font-weight:330;
-position: absolute;
+position: absolute; ****************
 }
