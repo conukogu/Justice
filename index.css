@@ -52,7 +52,7 @@ nav{
     color: white;
     text-decoration: none;
     font-size: 1.67vw;
-    
+    font-family:'Open sans';
   }
   .nav-links ul li::after{
     content: '';
