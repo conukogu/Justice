@@ -2,9 +2,10 @@
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
-  background-color: rgb(219, 215, 207);
 }
-
+body {
+  background-image: linear-gradient(rgb(245, 227, 204) 95%, rgb(85, 83, 83));
+}
 nav {
   display: flex;
   padding: 2% 6%;
@@ -65,6 +66,7 @@ nav img {
 
 .mission {
   margin: 10px;
+  margin-bottom: 0;
   padding: 5px;
   text-align: center;
   font-size: 20px;
@@ -95,11 +97,11 @@ nav img {
 .first {
   display: flex;
 }
-.hand {
+.imgtwo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 90px;
   width: 50%;
 }
@@ -117,4 +119,43 @@ nav img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/* footer */
+footer {
+  display: flex;
+  padding: 2vw;
+  padding-right: 2.5vw;
+  padding-bottom: 6vh;
+  margin-top: auto;
+}
+.social {
+  margin-left: auto;
+  order: 2;
+}
+
+.social {
+  color: whitesmoke;
+  padding: 1.5vw;
+  text-decoration: none;
+  font-size: 3vw;
+}
+
+.social:hover {
+  opacity: 0.5;
+}
+
+i.fa-circle-thin {
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.288);
+  -webkit-text-stroke-width: 2px;
+  paint-order: stroke;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+  font-family: "Open sans";
+  font-size: 2vw;
+  font-weight: 330;
 }
