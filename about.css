@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-image: linear-gradient(rgb(245, 227, 204) 95%, rgb(85, 83, 83));
+}
+/* nav bar */
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 150px;
+}
+
+/* project empower name on nav bar*/
+.name {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  padding: 2% 6%;
+}
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* underline affect */
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+/*hero
+
+.hero {
+  background-image: url("img/love_shouldnt_hurt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(30%);
+  background-size: cover;
+  margin: 0px;
+  padding: 250px;
+  height: 30px; */
+
+.abtus {
+  margin: 10px;
+  margin-top: 100px;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+}
+/* paragraphs in the article */
+.mission {
+  margin: 10px;
+  margin-bottom: 0;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.main {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.stat {
+  margin: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 0px;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+
+.title {
+  padding: 10px;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*.first {
+  display: flex;
+}*/
+.imgtwo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: 90px;
+  width: 50%;
+}
+
+.tip {
+  margin: 10px;
+  padding: 10px;
+  padding-top: 15px;
+  text-align: center;
+  color: brown;
+}
+
+.imgtop {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* footer */
+footer {
+  display: flex;
+  padding: 2vw;
+  padding-right: 2.5vw;
+  padding-bottom: 6vh;
+  margin-top: auto;
+}
+.social {
+  margin-left: auto;
+  order: 2;
+}
+
+.social {
+  color: whitesmoke;
+  padding: 1.5vw;
+  text-decoration: none;
+  font-size: 3vw;
+}
+
+.social:hover {
+  opacity: 0.5;
+}
+
+i.fa-circle-thin {
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.288);
+  -webkit-text-stroke-width: 2px;
+  paint-order: stroke;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+  font-family: "Open sans";
+  font-size: 1.7vw;
+  font-weight: 330;
+}
