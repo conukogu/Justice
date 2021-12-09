@@ -6,6 +6,7 @@
 body {
   background-image: linear-gradient(rgb(245, 227, 204) 95%, rgb(85, 83, 83));
 }
+/* nav bar */
 nav {
   display: flex;
   padding: 2% 6%;
@@ -16,6 +17,7 @@ nav img {
   width: 150px;
 }
 
+/* project empower name on nav bar*/
 .name {
   color: black;
   font-family: "Open Sans", sans-serif;
@@ -38,6 +40,7 @@ nav img {
   font-size: 20px;
 }
 
+/* underline affect */
 .nav-links ul li::after {
   content: "";
   width: 0%;
@@ -70,7 +73,7 @@ nav img {
   text-align: center;
   font-size: 30px;
 }
-
+/* paragraphs in the article */
 .mission {
   margin: 10px;
   margin-bottom: 0;
@@ -101,9 +104,9 @@ nav img {
   font-size: 30px;
 }
 
-.first {
+/*.first {
   display: flex;
-}
+}*/
 .imgtwo {
   display: block;
   margin-left: auto;
